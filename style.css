@@ -1,0 +1,116 @@
+body {
+  background-color: #011627;
+}
+.container {
+  position: relative;
+  display: flex;
+}
+.container .row {
+  display: flex;
+}
+.container .row div {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #011627;
+}
+.container .row .empty {
+  background-color: #011627;
+}
+.container .row .brick {
+  background: url("img/brick.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container .row .coin {
+  background: url("img/coin.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container .row .berry {
+  background: url("img/berry.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container #pacman {
+  background: url("img/pacman.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  top: 52px;
+  left: 52px;
+  z-index: 11;
+  transition: all 0.4s ease-out;
+  transform: rotate(0deg);
+}
+.container #ghost1 {
+  background: url("img/ghost1.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  top: 52px;
+  left: 52px;
+  z-index: 11;
+  transition: all 0.5s ease-out;
+  transform: rotate(0deg);
+}
+.container #ghost2 {
+  background: url("img/ghost2.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  top: 52px;
+  left: 52px;
+  z-index: 11;
+  transition: all 0.5s ease-out;
+  transform: rotate(0deg);
+}
+.container #ghost3 {
+  background: url("img/ghost3.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  top: 52px;
+  left: 52px;
+  z-index: 11;
+  transition: all 0.5s ease-out;
+  transform: rotate(0deg);
+}
+.container .score-container {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "consolas";
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: flex-start;
+  margin-left: 30px;
+}
+.container .score-container p {
+  margin-right: 10px;
+}
+.container #score {
+  width: 100px;
+  height: 60px;
+  color: white;
+  font-size: 40px;
+  border: 4px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
